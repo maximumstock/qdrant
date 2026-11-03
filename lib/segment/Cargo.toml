@@ -14,7 +14,7 @@ rand_distr = "0.4.3"
 walkdir = "2.3.3"
 
 [target.'cfg(not(target_os = "windows"))'.dev-dependencies]
-pprof = { version = "0.11", features = ["flamegraph", "prost-codec"] }
+pprof = { version = "0.15", features = ["flamegraph", "prost-codec"] }
 
 
 [dependencies]
@@ -41,7 +41,7 @@ geo = "0.24.1"
 geohash = "0.13.0"
 num-traits = "0.2.15"
 num-derive = "0.3.3"
-rand = "0.8"
+rand = "0.10"
 bitvec = "1.0.1"
 seahash = "4.1.0"
 tar = "0.4.38"
